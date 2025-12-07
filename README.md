@@ -39,15 +39,20 @@ Here’s an example of how the app works:
    git clone https://github.com/your-username/spotify-album-finder.git
 
 2. Install dependencies:
+   ```bash
    npm install
 
 3. Create a .env file in the root directory and add your Spotify API credentials:
+   ```bash
    VITE_SPOTIFY_CLIENT_ID=your_client_id
    VITE_SPOTIFY_CLIENT_SECRET=your_client_secret
 
 4. Run the development server:
+   ```bash
    npm run dev
 
 5. Open the app in your browser at:
+   ```bash
    http://localhost:5173
+
 
